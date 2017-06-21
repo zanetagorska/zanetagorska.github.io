@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <title>Clear View Escapes</title>
+  <meta name="keywords" content="Zaneta Gorska, front-end developer, RWD websites">
+  <meta name="description" content="">
+
+  <!-- build:css assets/styles/styles.css -->
+  <link rel="stylesheet" href="temp/styles/styles.css">
+  <!-- endbuild -->
+
+  <!-- build:js assets/scripts/Vendor.js -->
+  <script src="/temp/scripts/Vendor.js"></script>
+  <!-- endbuild -->
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="site-header__logo">
+        <div class="site-header__logo__graphic icon icon--zg-logo">Zaneta Gorska</div>
+      </div>
+      <div class="site-header__menu-icon">
+        <div class="site-header__menu-icon__middle"></div>
+      </div>
+      <div class="site-header__menu-content">
+        <nav class="primary-nav primary-nav--pull-right">
+          <ul>
+            <li><a href="#about" id="about-link">O mnie</a></li>
+            <li><a href="#technologies" id="technologies-link">Technologie</a></li>
+            <li><a href="#portfolio" id="portfolio-link">Portfolio</a></li>
+            <li><a href="#" class="open-modal">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="large-hero">
+    <picture>
+      <source srcset="assets/images/hero--large.jpg 1920w, assets/images/hero--large-hi-dpi.jpg 3840w" media="(min-width: 1380px)">
+      <source srcset="assets/images/hero--medium.jpg 1380w, assets/images/hero--medium-hi-dpi.jpg 2760w" media="(min-width: 990px)">
+      <source srcset="assets/images/hero--small.jpg 990w, assets/images/hero--small-hi-dpi.jpg 1980w" media="(min-width: 640px)">
+      <img srcset="assets/images/hero--smaller.jpg 640w, assets/images/hero--smaller-hi-dpi.jpg 1280w" class="large-hero__image">
+    </picture>
+    <div class="large-hero__text-content">
+      <div class="wrapper">
+        <h1 class="large-hero__title">Żaneta Górska</h1>
+        <h2 class="large-hero__subtitle">Junior Front-end Developer</h2>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="page-section" data-matching-link="#about-link">
+    <div class="wrapper">
+      <div class="row row--gutters">
+        <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
+          <picture>
+            <source sizes="404px" data-srcset="assets/images/about--large.jpg 404w, assets/images/about--large-hi-dpi.jpg 808w" media="(min-width: 1010px)">
+            <source sizes="301px" data-srcset="assets/images/about--medium.jpg 301w" media="(min-width: 890px)">
+            <img class="lazyload" data-srcset="assets/images/about--small.jpg 565w" alt="Zaneta Gorska photo">
+          </picture>
+        </div>
+        <div class="row__medium-8 row__medium-8--smaller">
+          <div class="generic-content-container">
+            <h2 class="section-title section-title--n-t-margin">O mnie</h2>
+            <p>Mam na imię Żaneta i od 2014 roku zajmuję się tworzeniem stron internetowych. Zawsze lubiłam rysować, ale nie chciałam być artystą. Byłam dobra z matematyki, ale studia ekonomiczne uświadomiły mi, że nie chcę zajmować się finansami. Postanowiłam, więc pójść w trochę innym kierunku. Zaczynałam karierę jako grafik, następnie poznałam WordPress, a od ponad roku zajmuję się Front-endem.</p>
+            <p>Dużo wiedzy zdobyłam samodzielnie i uczyłam się z projektu na projekt. Pracowałam jako freelancer i szukałam klientów na własną rękę. Do każdej osoby podchodziłam indywidualnie i projektowałam strony dostosowane do potrzeb. Później gdy zbudowałam portfolio rozpoczęłam współpracę z firmami. W każdej z nich bardzo dużo się nauczyłam i poznałam inspirujących ludzi.</p>
+            <p>Jestem osobą dla której najważniejszy jest rozwój. Inwestuję w kursy i szukam skutecznych rozwiązań. Obecnie skupiam się na efektywniejszym budowaniu stron oraz lepszemu zrozumieniu JavaScript.  Marzę o pracy w zgranym zespole programistów. Pragnę się rozwijać i uczyć od najlepszych.</p>
+            <p>Poza pracą jako developer, jestem prywatnym nauczycielem matematyki. Dzielenie się z innymi wiedzą sprawia mi duża przyjemność i satysfakcję. Wolny czas staram się  spędzać z dala od komputera – uprawiając sport i dbając o zdrowy tryb życia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="technologies" class="page-section page-section--technologies lazyload" data-matching-link="#technologies-link">
+    <div class="wrapper">
+      <h2 class="section-title">Technologie</h2>
+      <div class="row row--gutters-small">
+        <div class="row__xsmall-6 row__small-4 row__medium-3 row__large-2">
+          <div class="technologies-item">
+            <span class="icon icon--html technologies-item__icon"></span>
+          </div>
+        </div>
+        <div class="row__xsmall-6 row__small-4 row__medium-3 row__large-2">
+          <div class="technologies-item">
+            <span class="icon icon--css technologies-item__icon"></span>
+          </div>
+        </div>
+        <div class="row__xsmall-6 row__small-4 row__medium-3 row__large-2">
+          <div class="technologies-item">
+            <span class="icon icon--javascript technologies-item__icon"></span>
+          </div>
+        </div>
+        <div class="row__xsmall-6 row__small-4 row__medium-3 row__large-2">
+          <div class="technologies-item">
+            <span class="icon icon--photoshop technologies-item__icon"></span>
+          </div>
+        </div>
+        <div class="row__xsmall-6 row__small-4 row__medium-3 row__large-2">
+          <div class="technologies-item">
+            <span class="icon icon--illustrator technologies-item__icon"></span>
+          </div>
+        </div>
+        <div class="row__xsmall-6 row__small-4 row__medium-3 row__large-2">
+          <div class="technologies-item">
+            <span class="icon icon--less technologies-item__icon"></span>
+          </div>
+        </div>
+        <div class="row__xsmall-6 row__small-4 row__medium-3 row__large-2">
+          <div class="technologies-item">
+            <span class="icon icon--jquery technologies-item__icon"></span>
+          </div>
+        </div>
+        <div class="row__xsmall-6 row__small-4 row__medium-3 row__large-2">
+          <div class="technologies-item">
+            <span class="icon icon--git technologies-item__icon"></span>
+          </div>
+        </div>
+        <div class="row__xsmall-6 row__small-4 row__medium-3 row__large-2">
+          <div class="technologies-item">
+            <span class="icon icon--gulp technologies-item__icon"></span>
+          </div>
+        </div>
+        <div class="row__xsmall-6 row__small-4 row__medium-3 row__large-2">
+          <div class="technologies-item">
+            <span class="icon icon--npm technologies-item__icon"></span>
+          </div>
+        </div>
+        <div class="row__xsmall-6 row__small-4 row__medium-3 row__large-2">
+          <div class="technologies-item">
+            <span class="icon icon--wordpress technologies-item__icon"></span>
+          </div>
+        </div>
+        <div class="row__xsmall-6 row__small-4 row__medium-3 row__large-2">
+          <div class="technologies-item">
+            <span class="icon icon--bootstrap technologies-item__icon"></span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio" class="page-section page-section--dark-grey" data-matching-link="#portfolio-link">
+    <div class="wrapper">
+      <h2 class="section-title">Portfolio</h2>
+      <div class="row row--gutters row--equal-height-at-small row--gutters-small">
+        <div class="row__small-6 row__medium-4">
+          <figure class="portfolio-item">
+            <img class="portfolio-item__img" src="assets/images/portf-01.jpg" alt="">
+            <figcaption class="portfolio-item__caption">
+              <h3 class="portfolio-item__headline">Travel site</h3>
+              <div class="portfolio-item__icons">
+                <a href="https://zanetagorska.github.io/travel-site/"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                <a href="https://github.com/zanetagorska/travel-site"><i class="fa fa-github" aria-hidden="true"></i></a>
+              </div>
+              <p class="portfolio-item__description">Strona ćwiczeniowa w ramach tutorialu „Git a Web Developer Job: Mastering the Modern Workflow”. Kurs poszerzył moją wiedzę z technologi tj. GIT,  Gulp, CSS, RWD, JavaScript</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="row__small-6 row__medium-4">
+          <figure class="portfolio-item">
+            <img class="portfolio-item__img" src="assets/images/portf-02.jpg" alt="">
+            <figcaption class="portfolio-item__caption">
+              <h3 class="portfolio-item__headline">Clear news</h3>
+              <div class="portfolio-item__icons">
+                <a href="https://zanetagorska.github.io/clear-news/"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                <a href="https://github.com/zanetagorska/clear-news"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://github.com/zanetagorska/clear-news/blob/master/docs/32.jpg"><i class="fa fa-file-image-o" aria-hidden="true"></i></a>
+              </div>
+              <p class="portfolio-item__description">Projekt portalu informacyjnego. Technologie używane na stronie to: Flex, Flex grid, RWD, Javascript, Less. Dużym wyzwaniem było stworzenie mega menu.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="row__small-6 row__medium-4">
+          <figure class="portfolio-item">
+            <img class="portfolio-item__img" src="assets/images/portf-03.jpg" alt="">
+            <figcaption class="portfolio-item__caption">
+              <h3 class="portfolio-item__headline">Alex Vidal</h3>
+              <div class="portfolio-item__icons">
+                <a href="https://zanetagorska.github.io/Portfolio/Z31-AlexVidal/homepage.html"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                <a href="https://github.com/zanetagorska/Z31"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://github.com/zanetagorska/zanetagorska.github.io/blob/master/Portfolio/Z31-AlexVidal/31.jpg"><i class="fa fa-file-image-o" aria-hidden="true"></i></a>
+              </div>
+              <p class="portfolio-item__description">Projekt strony wizytówki web developera. Technologie użyte przy tworzeniu strony to: AJAX, Less, Bootstrap (Grid), RWD, JavaScript. Strona zawiera dużo animacji a największym wyzwaniem stanowiło stworzenie portfolio ze zdjęciami ładowanymi za pomocą AJAX. </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="row__small-6 row__medium-4">
+          <figure class="portfolio-item">
+            <img class="portfolio-item__img" src="assets/images/portf-04.jpg" alt="">
+            <figcaption class="portfolio-item__caption">
+              <h3 class="portfolio-item__headline">Smiley</h3>
+              <div class="portfolio-item__icons">
+                <a href="https://zanetagorska.github.io/Portfolio/Z22-Smiley/index.html"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                <a href="https://zanetagorska.github.io/smiley/"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://github.com/zanetagorska/zanetagorska.github.io/blob/master/Portfolio/Z22-Smiley/22.jpg"><i class="fa fa-file-image-o" aria-hidden="true"></i></a>
+              </div>
+              <p class="portfolio-item__description">Strona, która dzięki uniwersalnym sekcjom może zostać wykorzystana jako wizytówka firmy. Powstała z wykorzystaniem Bootstrap. Jest ona dosyć rozbudowana i posiada liczne animacje.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="row__small-6 row__medium-4">
+          <figure class="portfolio-item">
+            <img class="portfolio-item__img" src="assets/images/portf-05.jpg" alt="">
+            <figcaption class="portfolio-item__caption">
+              <h3 class="portfolio-item__headline">Corporate</h3>
+              <div class="portfolio-item__icons">
+                <a href="https://zanetagorska.github.io/Portfolio/Corporate/index.html"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                <a href="https://github.com/zanetagorska/zanetagorska.github.io/tree/master/Portfolio/Corporate"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://github.com/zanetagorska/zanetagorska.github.io/blob/master/Portfolio/Corporate/Corporate-Landing-Page.jpg"><i class="fa fa-file-image-o" aria-hidden="true"></i></a>
+              </div>
+              <p class="portfolio-item__description">Uniwersalny landing page. Technologi użyte: Bootstrap, Javascript, Less.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="row__small-6 row__medium-4">
+          <figure class="portfolio-item">
+            <img class="portfolio-item__img" src="assets/images/portf-06.jpg" alt="">
+            <figcaption class="portfolio-item__caption">
+              <h3 class="portfolio-item__headline">Feel the Flow</h3>
+              <div class="portfolio-item__icons">
+                <a href="http://www.feeltheflow.pl/"><i class="fa fa-globe" aria-hidden="true"></i></a>
+              </div>
+              <p class="portfolio-item__description">Strona komercyjna, mimo że nie jestem jej głównym twórcą, to pracowałam w zespole tworzącym tę stronę. Byłam odpowiedzialna za HTML i CSS do niej. Bardzo wiele nauczyłam się podczas tej współpracy i bardzo za nią dziękuję.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="row__small-6 row__medium-4">
+          <figure class="portfolio-item">
+            <img class="portfolio-item__img" src="assets/images/portf-07.jpg" alt="">
+            <figcaption class="portfolio-item__caption">
+              <h3 class="portfolio-item__headline">Detektywi</h3>
+              <div class="portfolio-item__icons">
+                <a href="http://pogotowiedetektywistyczne.pl/"><i class="fa fa-globe" aria-hidden="true"></i></a>
+              </div>
+              <p class="portfolio-item__description">Strona komercyjna dla agencji detektywistycznej. Oparta na Wordpressie.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="row__small-6 row__medium-4">
+          <figure class="portfolio-item">
+            <img class="portfolio-item__img" src="assets/images/portf-08.jpg" alt="">
+            <figcaption class="portfolio-item__caption">
+              <h3 class="portfolio-item__headline">Marketing Summit</h3>
+              <div class="portfolio-item__icons">
+                <a href="http://marketingsummit.eu/"><i class="fa fa-globe" aria-hidden="true"></i></a>
+              </div>
+              <p class="portfolio-item__description">Strona komercyjna, wykonana na potrzeby wydarzenia Marketing Summit. Powstała przy użyciu Wordpress.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="row__small-6 row__medium-4">
+          <figure class="portfolio-item">
+            <img class="portfolio-item__img" src="assets/images/portf-09.jpg" alt="">
+            <figcaption class="portfolio-item__caption">
+              <h3 class="portfolio-item__headline">Flex Design </h3>
+              <div class="portfolio-item__icons">
+                <a href="https://github.com/zanetagorska/zanetagorska.github.io/tree/master/Portfolio/FlexDesign"><i class="fa fa-github" aria-hidden="true"></i></a>
+              </div>
+              <p class="portfolio-item__description">Strona zaprojektowana przeze mnie na potrzeby ćwiczeń. Jest to jeden z pierwszych projektów do nauki Bootstrapa. Dodany dla porównania postępów poczynionych w czasie nauki.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p><span class="site-footer__text">Copyright &copy; 2017 Żaneta Górska. All rights reserved.</span><a href="#" class="btn btn--orange open-modal">Skontaktuj się</a></p></p>
+    </div>
+  </footer>
+
+  <div class="modal">
+    <div class="modal__inner">
+      <h2 class="section-title section-title--blue section-title--less-margin">Skontaktuj się</h2>
+      <div class="wrapper wrapper--narrow">
+        <p class="modal__description">Jeśli zaintersowała Cię moja osoba i chcesz nawiązać ze mną współpracę napisz do mnie.</p>
+      </div>
+      <div class="social-icons">
+        <a href="mailto:zanetagorska1@gmail.com" class="social-icons__icon"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
+        <a href="https://github.com/zanetagorska/" class="social-icons__icon"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+        <a href="#" class="social-icons__icon"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <div class="modal__close">X</div>
+  </div>
+  
+  <!-- build:js assets/scripts/App.js -->
+  <script src="/temp/scripts/App.js"></script>
+  <!-- endbuild -->
+
+</body>
+</html>

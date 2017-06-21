@@ -1,0 +1,88 @@
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp. 
+Instead edit gulp/templates/sprite */
+
+    .icon {
+      background-image: url('/assets/images/sprites/sprite-0716d0f5.svg');
+    }
+
+    .no-svg .icon {
+      background-image: url('/assets/images/sprites/sprite-0716d0f5.png');
+    }
+
+  .icon--bootstrap {
+    width: 152px;
+    height: 152px;
+    background-position: 33.333333333333336% 0;
+  }
+
+  .icon--css {
+    width: 152px;
+    height: 152px;
+    background-position: 0 87.60806916426513%;
+  }
+
+  .icon--git {
+    width: 152px;
+    height: 152px;
+    background-position: 0 43.804034582132566%;
+  }
+
+  .icon--gulp {
+    width: 152px;
+    height: 152px;
+    background-position: 33.333333333333336% 43.804034582132566%;
+  }
+
+  .icon--html {
+    width: 152px;
+    height: 152px;
+    background-position: 66.66666666666667% 0;
+  }
+
+  .icon--illustrator {
+    width: 152px;
+    height: 152px;
+    background-position: 66.66666666666667% 43.804034582132566%;
+  }
+
+  .icon--javascript {
+    width: 152px;
+    height: 152px;
+    background-position: 0 0;
+  }
+
+  .icon--jquery {
+    width: 152px;
+    height: 152px;
+    background-position: 33.333333333333336% 87.60806916426513%;
+  }
+
+  .icon--less {
+    width: 152px;
+    height: 152px;
+    background-position: 66.66666666666667% 87.60806916426513%;
+  }
+
+  .icon--npm {
+    width: 152px;
+    height: 152px;
+    background-position: 100% 0;
+  }
+
+  .icon--photoshop {
+    width: 152px;
+    height: 152px;
+    background-position: 100% 43.804034582132566%;
+  }
+
+  .icon--wordpress {
+    width: 152px;
+    height: 152px;
+    background-position: 100% 87.60806916426513%;
+  }
+
+  .icon--zg-logo {
+    width: 141.9px;
+    height: 42.6px;
+    background-position: 0 99.91235758106924%;
+  }

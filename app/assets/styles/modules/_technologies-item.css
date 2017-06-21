@@ -1,0 +1,13 @@
+.technologies-item {
+  height: 150px;
+  margin-bottom: 50px;
+  position: relative;
+
+  &__icon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+}
+
